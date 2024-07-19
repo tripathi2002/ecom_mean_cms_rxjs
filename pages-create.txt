@@ -1,0 +1,18 @@
+Pages - 
+    Admin - 
+        login 
+        category
+        customer 
+        cart 
+        layout 
+        order 
+        products
+
+    Website - 
+        landing
+        products 
+        cart 
+        checkout 
+        orders 
+        
+

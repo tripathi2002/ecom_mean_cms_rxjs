@@ -1,2 +1,5 @@
 id_ed25519_*_key*
 
+/node_modules
+.DS_Store
+Thumbs.db

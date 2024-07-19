@@ -9,6 +9,14 @@ $ git config user.email "youremail@gmail.com"  # for commit the change add email
 $ git config core.sshCommand "ssh -i /your_direcotory_path/ecom/id_ed25519_ecom_key -o IdentitiesOnly=yes"  # provide the ssh key for this directory 
 
 $ git add . # to stage the change
+$ git commit -m "your_comment" # to commit the change 
 
-$ git remote add origin git@github.com:tripathi2002/ecom_mean_cms_rxjs.git
-$ git push -u origin main
+$ git remote add origin git@github.com:tripathi2002/ecom_mean_cms_rxjs.git   # add the origin path
+$ git push -u origin main   # upload the changes on the remote 
+
+$ npm install -g @angular/cli 
+$ ng new my-app # for new workspace 
+$ cd my-app 
+$ ng serve
+
+# on the place of '@' use "&#64;" in html
