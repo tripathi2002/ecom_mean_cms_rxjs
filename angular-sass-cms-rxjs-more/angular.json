@@ -32,9 +32,10 @@
               }
             ],
             "styles": [
+              "src/global-scss/main.scss",
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": ["/src/global-lib/owlcarousel/owl.carousel.js"],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
