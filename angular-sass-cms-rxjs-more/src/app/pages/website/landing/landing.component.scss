@@ -2,10 +2,12 @@
 
 $primary-color: #81c408;
 $yellow-color: #ffb524;
+$lightgray-color: #f4f6f8;
+$lightblack-color: #45595b;
 
 nav {
     position: fixed;
-    top: 0.3rem;
+    top: 2.3rem;
     left: 0;
     right: 0;
     width: 90%;
@@ -100,6 +102,66 @@ nav {
             line-height: 1.5;
 
 
+        }
+    }
+} 
+
+.m2 {
+    padding-top: 80px;
+    .featurs-item {
+        box-sizing: border-box;
+        border-radius: 10px;
+        background-color: $lightgray-color;
+        text-align: center;
+        padding: 1.5rem;
+        .featurs-icon {
+            width: 120px;
+            height: 120px;
+            background-color: $yellow-color;
+            border-radius: 50%;
+            text-align: center;
+            align-content: center;
+            margin: auto;
+        }
+    }
+}
+
+.m3 {
+    padding-top: 80px;
+
+    .links {
+        text-align: right;
+
+        ul {
+            display: inline-flex;
+            list-style: none;
+            margin-bottom: 3rem;
+
+            li {
+                a {
+                    text-decoration: none;
+                    border-radius: 50rem;
+                    padding: 1.5rem;
+                    margin: 1.5rem;
+                    background-color: $lightgray-color;
+
+                    &:active {
+                        background-color: $yellow-color;
+                    }
+                    span {
+                        width: 200px;
+                        color: $lightblack-color;
+
+                        // &:nth-child(1) {
+                        //     background-color: $primary-color;
+                        // }
+                        
+                    }
+
+                }
+
+
+            }
         }
     }
 }

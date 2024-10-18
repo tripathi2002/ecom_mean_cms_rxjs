@@ -22,3 +22,5 @@ $ ng serve
 # on the place of '@' use "&#64;" in html
 
 #add the stlye and lib inside the package.json
+
+# now add script for fontawesome in the index.html
